@@ -19,13 +19,13 @@
         "tsConfigPath": "apps/airlines-core-api/tsconfig.app.json"
       }
     },
-    "ota-b2b": {
+    "users": {
       "type": "application",
-      "root": "apps/ota-b2b",
+      "root": "apps/users",
       "entryFile": "main",
-      "sourceRoot": "apps/ota-b2b/src",
+      "sourceRoot": "apps/users/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/ota-b2b/tsconfig.app.json"
+        "tsConfigPath": "apps/users/tsconfig.app.json"
       }
     }
   }

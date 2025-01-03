@@ -11,7 +11,9 @@ describe('AirlinesCoreApiController', () => {
       providers: [AirlinesCoreApiService],
     }).compile();
 
-    airlinesCoreApiController = app.get<AirlinesCoreApiController>(AirlinesCoreApiController);
+    airlinesCoreApiController = app.get<AirlinesCoreApiController>(
+      AirlinesCoreApiController,
+    );
   });
 
   describe('root', () => {

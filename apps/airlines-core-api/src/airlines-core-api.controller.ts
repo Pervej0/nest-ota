@@ -3,7 +3,9 @@ import { AirlinesCoreApiService } from './airlines-core-api.service';
 
 @Controller()
 export class AirlinesCoreApiController {
-  constructor(private readonly airlinesCoreApiService: AirlinesCoreApiService) {}
+  constructor(
+    private readonly airlinesCoreApiService: AirlinesCoreApiService,
+  ) {}
 
   @Get()
   getHello(): string {

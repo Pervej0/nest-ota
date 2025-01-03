@@ -1,0 +1,15 @@
+GET http://localhost:3000/users
+
+### Get User
+GET http://localhost:3000/users/1
+
+### Post User 
+POST http://localhost:3000/users
+Content-Type: application/json
+ {
+    "fullName": 'Jenny Doll',
+    "email": 'jenny@example.com',
+    "password": 'password789',
+    "phone": '+1928374650',
+    "address": '789 Oak Avenue, Gotham City, USA',
+}
